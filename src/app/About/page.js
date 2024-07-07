@@ -1,7 +1,7 @@
 const About = () => {
     return (
         <div id="about">
-            <section className="relative sm:block hidden bg-cover bg-right-bottom bg-no-repeat" style={{ backgroundImage: 'url(https://i.ibb.co/hWPgGjL/Me.jpg)' }}>
+            <section className="relative sm:block hidden bg-cover bg-right-bottom bg-no-repeat" style={{ backgroundImage: 'url(https://i.ibb.co/ysztf7Q/photo-2024-06-30-19-05-21.jpg)' }}>
                 <div className="absolute inset-0 bg-gradient-to-r from-black to-transparent"></div>
                 <div className="relative mx-auto max-w-screen-xl px-4 py-32 sm:px-6 lg:flex lg:h-screen lg:items-center lg:px-8">
                     <div className="max-w-xl text-white text-center ltr:sm:text-left rtl:sm:text-right">
@@ -16,7 +16,7 @@ const About = () => {
                 </div>
             </section>
             <section className="relative sm:hidden bg-cover bg-center bg-no-repeat"
-             style={{ backgroundImage: 'url(https://i.ibb.co/58GpcYk/Whats-App-Image-2024-04-23-at-18-07-11-46dd6af7.jpg)' }}>
+             style={{ backgroundImage: 'url(https://i.ibb.co/ysztf7Q/photo-2024-06-30-19-05-21.jpg)' }}>
                 <div className="absolute inset-0 bg-gradient-to-r from-black to-transparent"></div>
                 <div className="relative mx-auto max-w-screen-xl px-4 py-32 sm:px-6 lg:flex lg:h-screen lg:items-center lg:px-8">
                     <div className="max-w-xl text-white text-center ltr:sm:text-left rtl:sm:text-right">
