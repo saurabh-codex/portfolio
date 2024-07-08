@@ -22,7 +22,7 @@ const Hero = () => {
             </div>
             <div className="right sm:h-full sm:w-[6vw] flex justify-center items-center">
                 <ul className="flex w-full justify-around sm:flex-col sm:gap-5 ">
-                    <li className="w-12 h-12 bg-white text-black flex justify-center items-center group-hover:bg-black border rounded-full group-hover"><a title="X (Twitter)" href="https://twitter.com/"><RiTwitterXFill className="text-3xl group-hover group-hover:fill-white"/></a></li>
+                    <li className="w-12 h-12 bg-white text-black flex justify-center items-center group-hover:bg-black border rounded-full group-hover"><a title="X (Twitter)" href="https://twitter.com/saurabh74083"><RiTwitterXFill className="text-3xl group-hover group-hover:fill-white"/></a></li>
                     <li className="w-12 h-12 bg-white text-black flex justify-center items-center border rounded-full"><a title="Instagram" href="https://www.instagram.com/"><FaInstagram className="text-3xl"/></a></li>
                     <li className="w-12 h-12 bg-white text-black flex justify-center items-center border rounded-full"><a title="Github" href="https://github.com/Saurabh-codex"><FaGithub className="text-3xl"/></a></li>
                     <li className="w-12 h-12 bg-white text-black flex justify-center items-center border rounded-full"><a title="Mail" href="mailto:saurabhsoni74083@gmail.com"><MdOutlineMailOutline className="text-3xl"/></a></li>

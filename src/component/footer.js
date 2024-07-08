@@ -21,7 +21,7 @@ const Footer = () => {
                     <a rel="noopener noreferrer" href="https://github.com/Saurabh-codex" title="Github" className="flex items-center justify-center w-8 h-8 rounded-full sm:w-10 sm:h-10 dark:bg-white dark:text-gray-900">
                         <FaGithub className="w-8 h-8"/>
                     </a>
-                    <a rel="noopener noreferrer" href="https://twitter.com/" title="Twitter" className="flex items-center justify-center w-8 h-8 rounded-full sm:w-10 sm:h-10 dark:bg-white dark:text-gray-900">
+                    <a rel="noopener noreferrer" href="https://twitter.com/saurabh74083" title="Twitter" className="flex items-center justify-center w-8 h-8 rounded-full sm:w-10 sm:h-10 dark:bg-white dark:text-gray-900">
                        <RiTwitterXFill className/>
                     </a>
                     <a rel="noopener noreferrer" href="mailto:saurabhsoni74083@gmail.com" title="Gmail" className="flex items-center justify-center w-8 h-8 rounded-full sm:w-10 sm:h-10 dark:bg-white dark:text-gray-900">
