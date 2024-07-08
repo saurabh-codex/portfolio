@@ -35,10 +35,10 @@ export const Header = () => {
     ];
 
     return (
-        <div className="items-center navbar fixed top-0 left-0 z-50 h-[10vh] backdrop-blur-sm gap-2 flex justify-between">
+        <header className="items-center navbar fixed top-0 left-0 z-50 h-[10vh] backdrop-blur-sm gap-2 flex justify-between">
             <div className="flex items-center">
                 <a className="text-xl flex items-center font-bold mx-2 h-10 w-auto">
-                    <img className="h-10 w-auto" src={"https://i.ibb.co/zH9CDmc/original-36051dd8be8d73ec9caea4721bb8d807-removebg-preview.png"} alt="Logo"/>
+                    <img className="h-10 w-auto" src={"https://i.ibb.co/kS1k2CL/Original-36051dd8be8d73ec9caea4721bb8d807-removebg-preview.png"} alt="Logo"/>
                 </a>
             </div>
             <ul className="sm:flex hidden px-1.5 py-1.5 gap-1.5 bg-black/50 rounded-md">
@@ -53,10 +53,10 @@ export const Header = () => {
                 ))}
             </ul>
             <div className="flex flex-col bg-zinc-900 hover:bg-white transition-all mr-2 h-[90%] w-auto px-2 py-1 group-hover rounded-lg tracking-tight justify-center items-center">
-                <a href="https://drive.google.com/file/d/1TWecPn17nYQxdqgr1cG-l8qWnBorqtr-/view?usp=drive_link">
+                <a href="https://drive.google.com/file/d/1FN19ClpiZgEp0X729lsrLv9X6Ih1Ry-s/view?usp=drive_link">
                     <PiFilePdfFill className="text-white hover:text-black text-3xl"/>
                 </a>
             </div>
-        </div>
+        </header>
     );
 }
