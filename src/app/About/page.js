@@ -11,7 +11,7 @@ const About = () => {
                            About Me
                         </h1>
                         <p className="mt-4 text-white max-w-lg sm:text-xl/relaxed">
-                        I'm Saurabh Soni, a highly motivated and results-oriented aspiring Front-End Developer with a passion for building user-friendly and responsive web experiences. I am currently a 23-year-old B-Tech Graduate from Modi Institute of Technology Kota and I'm proficient in HTML, CSS, JavaScript, React, Next.js, Tailwind CSS, and Firebase. Through my internship experience, I spearheaded the development of a comprehensive web project, taking ownership of the frontend codebase and delivering seamless user experiences. I am eager to learn and contribute to a collaborative team environment.
+                        I am Saurabh Soni, a highly motivated and results-oriented aspiring Front-End Developer with a passion for building user-friendly and responsive web experiences. I am currently a 23-year-old B-Tech Graduate from Modi Institute of Technology Kota and I am proficient in HTML, CSS, JavaScript, React, Next.js, Tailwind CSS, and Firebase. Through my internship experience, I spearheaded the development of a comprehensive web project, taking ownership of the frontend codebase and delivering seamless user experiences. I am eager to learn and contribute to a collaborative team environment.
                         </p>
                         
                     </div>
@@ -26,7 +26,7 @@ const About = () => {
                            About Me
                         </h1>
                         <p className="mt-4 text-white max-w-lg sm:text-xl/relaxed">
-                        I'm Sauarbh Soni, a highly motivated and results-oriented aspiring Full Stack Developer with a passion for building user-friendly and responsive web experiences. I am currently a 23-year-old B-Tech Graduate from Modi Institute of Technology Kota and I'm proficient in HTML, CSS, JavaScript, React, Next.js, Tailwind CSS, and Firebase. Through my internship experience, I spearheaded the development of a comprehensive web project, taking ownership of the frontend codebase and delivering seamless user experiences. I am eager to learn and contribute to a collaborative team environment.
+                        I am Sauarbh Soni, a highly motivated and results-oriented aspiring Full Stack Developer with a passion for building user-friendly and responsive web experiences. I am currently a 23-year-old B-Tech Graduate from Modi Institute of Technology Kota and I am proficient in HTML, CSS, JavaScript, React, Next.js, Tailwind CSS, and Firebase. Through my internship experience, I spearheaded the development of a comprehensive web project, taking ownership of the frontend codebase and delivering seamless user experiences. I am eager to learn and contribute to a collaborative team environment.
                         </p>
                         
                     </div>
