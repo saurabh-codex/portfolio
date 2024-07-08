@@ -38,7 +38,7 @@ export const Header = () => {
         <div className="items-center navbar fixed top-0 left-0 z-50 h-[10vh] backdrop-blur-sm gap-2 flex justify-between">
             <div className="flex items-center">
                 <a className="text-xl flex items-center font-bold mx-2 h-10 w-auto">
-                    <img className="h-10 w-auto" src={"https://i.ibb.co/KbjCwGW/original-36051dd8be8d73ec9caea4721bb8d807-removebg-preview.png"} alt="Logo"/>
+                    <img className="h-10 w-auto" src={"https://i.ibb.co/zH9CDmc/original-36051dd8be8d73ec9caea4721bb8d807-removebg-preview.png"} alt="Logo"/>
                 </a>
             </div>
             <ul className="sm:flex hidden px-1.5 py-1.5 gap-1.5 bg-black/50 rounded-md">

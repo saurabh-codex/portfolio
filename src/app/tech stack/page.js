@@ -10,6 +10,7 @@ import { IoLogoFirebase } from "react-icons/io5";
 import { RiSupabaseFill } from "react-icons/ri";
 import { FaPython } from "react-icons/fa";
 import { SiTypescript } from "react-icons/si";
+import { TbBrandCpp } from "react-icons/tb";
 
 const Skills = () => {
     return(
@@ -20,18 +21,19 @@ const Skills = () => {
                     <p className="text-gray-400">To make me a superhero</p>
                 </div>
                 <div className="container mx-auto grid justify-center gap-7 sm:grid-cols-4">
-                    <TechStackItem icon={<AiOutlineHtml5 className="w-12 h-12 text-white"/>} title="HTML" description="The standard markup language for creating web pages." skillLevel="Advanced"  />
-                    <TechStackItem icon={<TbBrandCss3 className="w-12 h-12 text-white"/>} title="CSS" description="The language used for describing the presentation of web pages." skillLevel="Intermediate"  />
-                    <TechStackItem icon={<TbBrandJavascript className="w-12 h-12 text-white"/>} title="JavaScript" description="A programming language that enables interactive web pages." skillLevel="Advanced"  />
-                    <TechStackItem icon={<SiTypescript className="w-12 h-12 text-white"/>} title="TypeScript" description="A superset of JavaScript that adds static typing." skillLevel="Intermediate"  />
-                    <TechStackItem icon={<FaReact className="w-12 h-12 text-white"/>} title="React.js" description="A JavaScript library for building user interfaces." skillLevel="Advanced"  />
-                    <TechStackItem icon={<FaBootstrap className="w-12 h-12 text-white"/>} title="Bootstrap" description="A CSS framework for developing responsive and mobile-first websites." skillLevel="Intermediate"  />
-                    <TechStackItem icon={<SiTailwindcss className="w-12 h-12 text-white"/>} title="Tailwind CSS" description="A utility-first CSS framework for building custom designs." skillLevel="Intermediate"  />
-                    <TechStackItem icon={<SiNextdotjs className="w-12 h-12 text-white"/>} title="Next.js" description="A React framework for building production-ready applications." skillLevel="Intermediate"  />
-                    <TechStackItem icon={<DiMongodb className="w-12 h-12  text-white"/>} title="MongoDB" description="A NoSQL database for storing and retrieving data." skillLevel="Intermediate"  />
-                    <TechStackItem icon={<IoLogoFirebase className="w-12 h-12  text-white"/>} title="Firebase" description="A platform for building web and mobile applications without managing infrastructure." skillLevel="Advanced" link="#" />
-                    <TechStackItem icon={<RiSupabaseFill className="w-12 h-12  text-white"/>} title="Supabase" description="An open-source alternative to Firebase." skillLevel="Intermediate" link="#" />
-                    <TechStackItem icon={<FaPython className="w-12 h-12  text-white"/>} title="Python" description="A programming language used for web development, data science, and more." skillLevel="Advanced"  />
+                    <TechStackItem icon={<AiOutlineHtml5 className="w-12 h-12 text-white"/>} title="HTML" description="The standard markup language for creating web pages."  />
+                    <TechStackItem icon={<TbBrandCss3 className="w-12 h-12 text-white"/>} title="CSS" description="The language used for describing the presentation of web pages." />
+                    <TechStackItem icon={<TbBrandJavascript className="w-12 h-12 text-white"/>} title="JavaScript" description="A programming language that enables interactive web pages."   />
+                    <TechStackItem icon={<SiTypescript className="w-12 h-12 text-white"/>} title="TypeScript" description="A superset of JavaScript that adds static typing." />
+                    <TechStackItem icon={<FaReact className="w-12 h-12 text-white"/>} title="React.js" description="A JavaScript library for building user interfaces."  />
+                    <TechStackItem icon={<FaBootstrap className="w-12 h-12 text-white"/>} title="Bootstrap" description="A CSS framework for developing responsive and mobile-first websites."   />
+                    <TechStackItem icon={<SiTailwindcss className="w-12 h-12 text-white"/>} title="Tailwind CSS" description="A utility-first CSS framework for building custom designs."  />
+                    <TechStackItem icon={<SiNextdotjs className="w-12 h-12 text-white"/>} title="Next.js" description="A React framework for building production-ready applications."  />
+                    <TechStackItem icon={<DiMongodb className="w-12 h-12  text-white"/>} title="MongoDB" description="A NoSQL database for storing and retrieving data."  />
+                    <TechStackItem icon={<IoLogoFirebase className="w-12 h-12  text-white"/>} title="Firebase" description="A platform for building web and mobile applications without managing infrastructure."  link="#" />
+                    {/* <TechStackItem icon={<RiSupabaseFill className="w-12 h-12  text-white"/>} title="Supabase" description="An open-source alternative to Firebase." skillLevel="Intermediate" link="#" /> */}
+                    <TechStackItem icon={<FaPython className="w-12 h-12  text-white"/>} title="Python" description="A programming language used for web development, data science, and more."   />
+                    <TechStackItem icon={<TbBrandCpp className="w-12 h-12 text-white" />} title="" description="A programming language used for data structure & Algorithm, and more."   />
                 </div>
             </section>
         </div>
@@ -44,7 +46,7 @@ const TechStackItem = ({ icon, title, description, skillLevel }) => {
             {icon}
             <h3 className="my-3 text-3xl font-semibold">{title}</h3>
             <p className="text-gray-400 mb-2 text-center">{description}</p>
-            <p className="text-gray-400 mb-2">Skill Level: {skillLevel}</p>
+            {/* <p className="text-gray-400 mb-2">Skill Level: {skillLevel}</p> */}
         </div>
     );
 }
