@@ -53,7 +53,7 @@ export const Header = () => {
                 ))}
             </ul>
             <div className="flex flex-col bg-zinc-900 hover:bg-white transition-all mr-2 h-[90%] w-auto px-2 py-1 group-hover rounded-lg tracking-tight justify-center items-center">
-                <a href="https://drive.google.com/file/d/1FN19ClpiZgEp0X729lsrLv9X6Ih1Ry-s/view?usp=drive_link">
+                <a href="https://drive.google.com/file/d/1lGbcIjvHmQg4-QoattZgBp-AlPhMsbmJ/view?usp=drive_link">
                     <PiFilePdfFill className="text-white hover:text-black text-3xl"/>
                 </a>
             </div>
