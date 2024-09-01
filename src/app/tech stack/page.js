@@ -2,6 +2,7 @@ import { AiOutlineHtml5 } from "react-icons/ai";
 import { TbBrandCss3 } from "react-icons/tb";
 import { TbBrandJavascript } from "react-icons/tb";
 import { FaReact } from "react-icons/fa";
+import { FaNode } from "react-icons/fa";
 import { FaBootstrap } from "react-icons/fa";
 import { SiTailwindcss } from "react-icons/si";
 import { SiNextdotjs } from "react-icons/si";
@@ -26,6 +27,7 @@ const Skills = () => {
                     <TechStackItem icon={<TbBrandJavascript className="w-12 h-12 text-white"/>} title="JavaScript" description="A programming language that enables interactive web pages."   />
                     <TechStackItem icon={<SiTypescript className="w-12 h-12 text-white"/>} title="TypeScript" description="A superset of JavaScript that adds static typing." />
                     <TechStackItem icon={<FaReact className="w-12 h-12 text-white"/>} title="React.js" description="A JavaScript library for building user interfaces."  />
+                    <TechStackItem icon={<FaNode className="w-12 h-12 text-white"/>} title="Node.js" description="A runtime enviorment that allows JavaScript to be executed on the server side."  />
                     <TechStackItem icon={<FaBootstrap className="w-12 h-12 text-white"/>} title="Bootstrap" description="A CSS framework for developing responsive and mobile-first websites."   />
                     <TechStackItem icon={<SiTailwindcss className="w-12 h-12 text-white"/>} title="Tailwind CSS" description="A utility-first CSS framework for building custom designs."  />
                     <TechStackItem icon={<SiNextdotjs className="w-12 h-12 text-white"/>} title="Next.js" description="A React framework for building production-ready applications."  />
