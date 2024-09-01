@@ -7,7 +7,7 @@ import { SiTailwindcss } from "react-icons/si";
 import { SiNextdotjs } from "react-icons/si";
 import { DiMongodb } from "react-icons/di";
 import { IoLogoFirebase } from "react-icons/io5";
-import { RiSupabaseFill } from "react-icons/ri";
+import { SiAppwrite } from "react-icons/si";
 import { FaPython } from "react-icons/fa";
 import { SiTypescript } from "react-icons/si";
 import { TbBrandCpp } from "react-icons/tb";
@@ -31,7 +31,7 @@ const Skills = () => {
                     <TechStackItem icon={<SiNextdotjs className="w-12 h-12 text-white"/>} title="Next.js" description="A React framework for building production-ready applications."  />
                     <TechStackItem icon={<DiMongodb className="w-12 h-12  text-white"/>} title="MongoDB" description="A NoSQL database for storing and retrieving data."  />
                     <TechStackItem icon={<IoLogoFirebase className="w-12 h-12  text-white"/>} title="Firebase" description="A platform for building web and mobile applications without managing infrastructure."  link="#" />
-                    {/* <TechStackItem icon={<RiSupabaseFill className="w-12 h-12  text-white"/>} title="Supabase" description="An open-source alternative to Firebase." skillLevel="Intermediate" link="#" /> */}
+                    <TechStackItem icon={<SiAppwrite className="w-12 h-12  text-white"/>} title="Appwrite" description="An open-source alternative to Firebase."  link="#" />
                     <TechStackItem icon={<FaPython className="w-12 h-12  text-white"/>} title="Python" description="A programming language used for web development, data science, and more."   />
                     <TechStackItem icon={<TbBrandCpp className="w-12 h-12 text-white" />} title="" description="A programming language used for data structure & Algorithm, and more."   />
                 </div>
