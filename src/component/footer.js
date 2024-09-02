@@ -1,4 +1,5 @@
-import { FaGithub, FaInstagram } from "react-icons/fa6";
+import { FaGithub } from "react-icons/fa6";
+import { FaWhatsapp } from "react-icons/fa";
 import { FaLinkedin } from "react-icons/fa";
 import { MdOutlineMailOutline } from "react-icons/md";
 
@@ -15,8 +16,8 @@ const Footer = () => {
             </ul>
             <div className="flex flex-col justify-center pt-6 lg:pt-0">
                 <div className="flex justify-center space-x-11">
-                    <a rel="noopener noreferrer" href="https://www.instagram.com/" title="Instagram" className="flex items-center justify-center w-8 h-8 rounded-full sm:w-10 sm:h-10 dark:bg-white dark:text-gray-900">
-                        <FaInstagram className="w-8 h-8"/>
+                    <a rel="noopener noreferrer" href="https://wa.me/+917877606129" title="Whatsapp" className="flex items-center justify-center w-8 h-8 rounded-full sm:w-10 sm:h-10 dark:bg-white dark:text-gray-900">
+                        <FaWhatsapp className="w-8 h-8"/>
                     </a>
                     <a rel="noopener noreferrer" href="https://github.com/Saurabh-codex" title="Github" className="flex items-center justify-center w-8 h-8 rounded-full sm:w-10 sm:h-10 dark:bg-white dark:text-gray-900">
                         <FaGithub className="w-8 h-8"/>
