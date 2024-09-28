@@ -1,5 +1,6 @@
 "use client"
 import { SiLeetcode } from "react-icons/si";
+import { SiGeeksforgeeks } from "react-icons/si";
 import { FaLinkedin } from "react-icons/fa";
 import { FaGithub } from "react-icons/fa";
 import { MdOutlineMailOutline } from "react-icons/md";
@@ -22,8 +23,9 @@ const Hero = () => {
             </div>
             <div className="right sm:h-full sm:w-[6vw] flex justify-center items-center">
                 <ul className="flex w-full justify-around sm:flex-col sm:gap-5 ">
-                    <li className="w-12 h-12 bg-white text-black flex justify-center items-center group-hover:bg-black border rounded-full group-hover"><a title="X (Twitter)" href="https://www.linkedin.com/in/saurabh-soni-1a20491b6/"><FaLinkedin className="text-3xl group-hover group-hover:fill-white"/></a></li>
+                    <li className="w-12 h-12 bg-white text-black flex justify-center items-center group-hover:bg-black border rounded-full group-hover"><a title="LinkedIN" href="https://www.linkedin.com/in/saurabh-soni-1a20491b6/"><FaLinkedin className="text-3xl group-hover group-hover:fill-white"/></a></li>
                     <li className="w-12 h-12 bg-white text-black flex justify-center items-center border rounded-full"><a title="Leetcode" href="https://leetcode.com/u/saurabh_soni_/"><SiLeetcode className="text-3xl"/></a></li>
+                    <li className="w-12 h-12 bg-white text-black flex justify-center items-center border rounded-full"><a title="GfG" href="https://www.geeksforgeeks.org/user/saurabhso5wcl/"><SiGeeksforgeeks className="text-3xl"/></a></li>
                     <li className="w-12 h-12 bg-white text-black flex justify-center items-center border rounded-full"><a title="Github" href="https://github.com/Saurabh-codex"><FaGithub className="text-3xl"/></a></li>
                     <li className="w-12 h-12 bg-white text-black flex justify-center items-center border rounded-full"><a title="Mail" href="mailto:saurabhsoni74083@gmail.com"><MdOutlineMailOutline className="text-3xl"/></a></li>
                     <li className="w-12 h-12 bg-white text-black flex justify-center items-center border rounded-full"><a title="Call" href="tel:+917877606129"><IoCallSharp className="text-3xl"/></a></li>
